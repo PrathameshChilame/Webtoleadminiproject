@@ -5,5 +5,4 @@ function beforesubmit(){
 
     let formateddate = new Date(inputdate.value).toLocaleDateString("en-IN");
     outputdate.value = formateddate; 
-    //console.log(outputdate.value);
 }
